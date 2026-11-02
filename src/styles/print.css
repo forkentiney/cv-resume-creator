@@ -1,0 +1,34 @@
+#print {
+	width: clamp(90vw, 220mm, 220mm);
+	align-self: center;
+	padding: 20mm;
+	border: 2px solid black;
+}
+
+#personal-print {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+li {
+	list-style: none;
+}
+
+li {
+	margin-top: 1em;
+}
+
+.date-range {
+	display: flex;
+	flex-direction: row;
+}
+
+.date-range p + p:before {
+	content: "– ";
+}
+
+.date-range p {
+	margin: 2px;
+}

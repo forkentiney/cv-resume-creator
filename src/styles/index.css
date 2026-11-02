@@ -1,0 +1,42 @@
+.cardContainer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.card {
+	margin: 8px;
+	height: 550px;
+	display: flex;
+	flex-direction: column;
+	background-color: lightgray;
+	padding: 1em;
+	max-width: 350px;
+	border: 2px solid black;
+	border-radius: 8px;
+	box-shadow: 4px 4px 8px black;
+}
+
+.card a {
+	pading: 1em;
+	align-self: center;
+	margin-top: auto;
+}
+
+.card h2 {
+	text-align: center;
+}
+
+.card p {
+	margin: 1em 0;
+}
+
+button {
+	padding: 1em;
+	font-weight: 600;
+	font-size: 110%;
+	margin: 8px;
+	border-radius: 10px;
+	border: 2px solid black;
+}
