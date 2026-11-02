@@ -1,16 +1,5 @@
-# React + Vite
+## CV & Resume Creator
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A resume and CV generator page made to practice using React.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+This still needs some work. However, I managed to somewhat wrap my head around React's state management and learned how to pass that state down into modules. I largely treated this project as an experiement. It's a bit messy, but in its present state it pretty much works. I mean, you can create a résumé and have it display a nice preview for you. The styling is utter garbage and I haven't taken the time to add in the function which would allow you to edit your education and experience once submitted which makes the app a bit frustrating to use. However, I think in terms of starting to work with React, this is a good place to start. I plan to revisit this in future to tidy it up a bit. 
