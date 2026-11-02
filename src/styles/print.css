@@ -1,5 +1,5 @@
 #print {
-	width: clamp(90vw, 220mm, 220mm);
+	width: clamp(300px, 220mm, 220mm);
 	align-self: center;
 	padding: 20mm;
 	border: 2px solid black;
